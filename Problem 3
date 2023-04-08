@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num ;
+    int i;
+    int T=100;
+
+    scanf("%d",&T);
+
+   for(i=1; i<T; i++){
+      printf("Please given a number\n");
+    scanf("%d",&num);
+
+    if(num % 2 == 0){
+      printf("%d is even\n",num);
+    }
+    else{
+       printf("%d is odd\n",num);
+    }
+   }
+
+
+
+
+    return 0;
+}
