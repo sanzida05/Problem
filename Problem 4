@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num ;
+    int i;
+    int T,t;
+
+
+    even_odd(100);
+
+    even_odd(1000);
+    return 0;
+}
+
+
+
+
+int even_odd(T){
+    int i;
+   for(i=1; i<T; i++){
+     if(i % 2 == 0){
+        printf("Even = %d\n",i);
+
+     }
+
+   }
+   for(i=1; i<T; i++){
+
+
+      if(i % 2 != 0){
+        printf("odd =  %d\n",i);
+
+     }
+
+
+   }
+}
+
