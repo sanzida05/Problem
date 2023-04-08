@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int num;
+    int array[5] = {};
+    int result;
+
+    scanf("%d",&num);
+
+    for(int i=0; i<5; i++){
+        array[i] = num % 10;
+        int last_num = num / 10;
+        num = last_num;
+
+        if(num == 0){
+            break;
+
+        }
+
+    }
+
+      result = array[0] + array[4];
+    printf("%d",result);
+    return 0;
+}
