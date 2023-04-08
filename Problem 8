@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i;
+    int d;
+    int a;
+    int n;
+
+    printf("Please Enter Start Number: \n");
+    scanf("%d",&a);
+    printf("Please Last Number: \n");
+    scanf("%d",&n);
+    printf("Please Enter Diffrents Number: \n");
+     scanf("%d",&d);
+
+    for(i=1;i<=n; i=i+d){
+        printf("%d+",i);
+    }
+
+    return 0;
+}
