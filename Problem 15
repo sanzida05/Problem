@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a= 50;
+
+    if ("x>10 && X<100"){
+           printf("    A\n");
+         printf("   B  C\n");
+        printf("  D     E\n");
+         printf("   F   G\n");
+           printf("     H\n");
+    }
+
+    return 0;
+}
