@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char ch;
+    printf("Please Enter your value :");
+
+    scanf("%d", &ch);
+
+    switch(ch){
+    case 'a' :
+        printf("&&&");
+        break;
+
+    case 'b' :
+        printf("***");
+        break;
+    case 'c' :
+        printf("@@@");
+        break;
+
+    default :
+        printf("Ch is unknown");
+
+    }
+    return 0;
+}
