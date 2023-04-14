@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int w;
+
+    for(w=1; w<=100; w=w+2){
+        printf("%d\n",w);
+    }
+    return 0;
+}
