@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+     int w;
+    for(w=1; w<=15; w++){
+        if(w%2==0)
+          break;
+
+        printf("%d\n", w);
+    }
+    return 0;
+}
