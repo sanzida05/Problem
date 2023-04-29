@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int m, w;
+
+    for(m=1; m<=5; m++){
+
+        for(w=1; w<=6; w++){
+
+            printf("**\n");
+        }
+    }
+
+    return 0;
+}
