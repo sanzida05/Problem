@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int i;
+   i= -10;
+
+   do{
+
+    printf("Hi\n");
+    printf("Hello\n");
+
+    i=i-3;
+
+   } while(i>= -12);
+
+    return 0;
+}
