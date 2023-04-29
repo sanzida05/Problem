@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int w;
+    w=1;
+
+    while(w<=100){
+        printf("%d\n", w);
+
+        w++;
+    }
+    return 0;
+}
