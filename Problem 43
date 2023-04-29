@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int m, n, o;
+
+   for(m=1; m<=6; m++){
+
+    for(n=2; n<=8; n= n+2){
+
+        for(o=1; o<=10; o++){
+            printf("$\n");
+        }
+    }
+   }
+    return 0;
+}
