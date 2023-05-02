@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   float A[5];
+
+   float B[5];
+
+   float AB, i, sum = 0,sum 1, sum2;
+
+   for(i=0; i<5; i++){
+
+    scanf("%f\n", &A[i]);
+
+    sum 1 = sum + A[i];
+   }
+
+   for(i=0; i<5; i++){
+
+    scanf("%f\n", &B[i]);
+
+    sum 2 = sum + B[i];
+   }
+
+   AB = sum 1 + sum 2;
+
+   printf("%f\n", AB);
+
+    return 0;
+}
