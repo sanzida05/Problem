@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float a[5];
+
+    a[0] = 30;
+    a[1] = 50;
+    a[2] = 39;
+    a[3] = 45;
+    a[4] = 90;
+
+
+   int w= a[2] + a[3] + a[4];
+
+   printf("%d\n", w);
+
+
+   a[3] = 65.5;
+     a[4] = 70.32;
+
+   float x = a[3] + a[4];
+
+   printf("%f\n", x);
+
+
+    return 0;
+}
