@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  printf("Alexandra Abramov. \n");
+  printf("July 14, 1975. \n");
+  printf("99-9999999999. \n");
+
+
+    return 0;
+}
