@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float add(float a, float b){
+    return ( a + b );
+}
+float subtract(float a, float b){
+    return ( a - b );
+}
+float multiply(float a, float b){
+    return ( a * b );
+}
+float divisor(float a, float b){
+    return ( a / b );
+}
+
+
+int main()
+{
+    float a,b;
+   printf("Please Enter your value of a and b:\n");
+   scanf("%f%f\n", &a,&b);
+
+   float add_result = add(a , b);
+
+   float subtract_result = subtract(a , b);
+
+   float multiply_result = multiply(a , b);
+
+   float divisor_result = divisor(a , b);
+
+
+   printf(" Add : %f\n", add_result);
+   printf(" Subtract : %f\n", subtract_result);
+   printf(" multiply : %f\n", multiply_result);
+   printf(" divisor : %f\n", divisor_result);
+    return 0;
+}
